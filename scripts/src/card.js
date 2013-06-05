@@ -9,6 +9,7 @@
 
 
 function Card(value, properName, suit, faceUp) {
+    "use strict";
     this.value = value;
     this.properName = properName;
     this.suit = suit;

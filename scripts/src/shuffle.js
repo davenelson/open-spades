@@ -11,6 +11,7 @@
  *
  */
 function shuffle(myArray) {
+    "use strict";
     var i = myArray.length, j, temp;
     if (i === 0) {
         return false;
