@@ -22,4 +22,5 @@ function shuffle(myArray) {
         myArray[i] = myArray[j];
         myArray[j] = temp;
     }
+    return true;
 }
