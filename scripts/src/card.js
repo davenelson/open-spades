@@ -1,13 +1,11 @@
-
-/*
- * Card Object
- * A card has the following properties
- *  value: 2-13
- *  properName: two, three, four, five, six, seven, eight, nine, ten, jack, queen, king, ace
- *  faceUp: true, false
+/**
+ * Represents individual playing cards
+ * @param value {number} - The numeric value of the card.
+ * @param properName {string} - The name of the card.
+ * @param suit {string} - The suit of the card.
+ * @param faceUp {boolean} - Is the card face up?
+ * @constructor
  */
-
-
 function Card(value, properName, suit, faceUp) {
     "use strict";
     this.value = value;
